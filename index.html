@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday ❤️</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="background"></div>
+
+    <!-- Floating Hearts -->
+    <div id="hearts"></div>
+
+    <!-- Fairy Lights -->
+    <div id="fairyLights"></div>
+
+    <!-- Balloons -->
+    <div id="balloons"></div>
+
+    <!-- Confetti -->
+    <div id="confetti"></div>
+
+
+
+
+
+    <!-- =========================
+            SCREEN 1
+    =========================== -->
+
+    <section class="screen active" id="screen1">
+
+        <div class="content">
+
+            <h1 class="mainTitle">
+                Happy Birthday,
+                <span id="birthdayName">
+                    YOUR NAME
+                </span>
+            </h1>
+
+            <p class="subTitle">
+                A CINEMATIC JOURNEY CREATED JUST FOR YOU
+            </p>
+
+            <button class="glowBtn" onclick="nextScreen(2)">
+                🎁 OPEN YOUR GIFT
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <!-- =========================
+            SCREEN 2
+    =========================== -->
+
+    <section class="screen" id="screen2">
+
+        <div class="glassCard">
+
+            <h2>
+                It's Your Special Day
+            </h2>
+
+            <button class="glowBtn" onclick="nextScreen(3)">
+                NEXT
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <!-- =========================
+            SCREEN 3
+    =========================== -->
+
+    <section class="screen" id="screen3">
+
+        <div class="glassCard">
+
+            <h2>
+                Have a look at it Madam Jii ❤️
+            </h2>
+
+            <button class="glowBtn"
+                onclick="nextScreen(4)">
+                NEXT
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <!-- =========================
+            SCREEN 4
+    =========================== -->
+
+    <section class="screen" id="screen4">
+
+        <div class="glassCard">
+
+            <h2>
+                Ready For Your Surprise?
+            </h2>
+
+            <button class="glowBtn"
+                onclick="nextScreen(5)">
+                Let's Go
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <!-- =========================
+            SCREEN 5
+    =========================== -->
+
+    <section class="screen" id="screen5">
+
+        <div class="content">
+
+            <h2>
+                💡
+            </h2>
+
+            <h1>
+                The Stage is Set...
+            </h1>
+
+            <button class="glowBtn"
+                onclick="turnOnLights()">
+
+                💡 Turn On Lights
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+    <!-- =========================
+            SCREEN 6
+    =========================== -->
+
+    <section class="screen"
+        id="screen6">
+
+        <div class="content">
+
+            <h2>
+                🎵
+            </h2>
+
+            <h1>
+                Music Makes It Better...
+            </h1>
+
+            <button class="glowBtn"
+                onclick="playMusic()">
+
+                ▶ Play Music
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+    <!-- =========================
+            SCREEN 7
+    =========================== -->
+
+    <section class="screen"
+        id="screen7">
+
+        <div class="content">
+
+            <h2>
+                🎈
+            </h2>
+
+            <h1>
+                Let The Colors Fly!
+            </h1>
+
+            <button class="glowBtn"
+                onclick="flyBalloons()">
+
+                🎈 Fly Balloons
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+
+
+        <!-- =========================
+            SCREEN 8
+    =========================== -->
+
+    <section class="screen" id="screen8">
+
+        <div class="content">
+
+            <h2>✨</h2>
+
+            <h1>Almost There...</h1>
+
+            <p class="subTitle">
+                Ek aakhri surprise abhi baaqi hai...
+            </p>
+
+            <button class="glowBtn"
+                onclick="nextScreen(9)">
+
+                💌 Show The Message
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- =========================
+            SCREEN 9
+    =========================== -->
+
+    <section class="screen"
+        id="screen9">
+
+        <div class="letterCard">
+
+            <h1>
+                💖 Happy Birthday 💖
+            </h1>
+
+            <div class="urduLetter">
+
+                <p>
+
+                    میری سب سے پیاری،
+
+                </p>
+
+                <p>
+
+                    آج صرف تمہاری سالگرہ نہیں بلکہ میری زندگی کی
+                    سب سے خوبصورت خوشی کا دن بھی ہے۔
+
+                </p>
+
+                <p>
+
+                    تم نے میری زندگی میں جو محبت،
+                    مسکراہٹ اور خوشیاں شامل کی ہیں،
+                    ان کا شکریہ الفاظ میں ادا کرنا ممکن نہیں۔
+
+                </p>
+
+                <p>
+
+                    اللہ تعالیٰ تمہیں ہمیشہ خوش رکھے،
+                    ہر خواب پورا کرے،
+                    ہر قدم پر کامیابی عطا فرمائے
+                    اور تمہاری زندگی محبت،
+                    سکون اور خوشیوں سے بھر دے۔
+
+                </p>
+
+                <p>
+
+                    میری دعا ہے کہ ہماری ہر آنے والی یاد
+                    آج سے بھی زیادہ خوبصورت ہو۔
+
+                </p>
+
+                <p>
+
+                    سالگرہ بہت بہت مبارک ہو ❤️
+
+                </p>
+
+            </div>
+
+            <button class="glowBtn"
+                onclick="showGallery()">
+
+                📸 Our Memories
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <!-- =========================
+            GALLERY
+    =========================== -->
+
+    <section id="gallerySection">
+
+        <h1 class="galleryTitle">
+
+            📸 Our Beautiful Memories
+
+        </h1>
+
+        <div class="galleryGrid">
+
+            <div class="photo">
+                <img src="images/1.jpg" alt="">
+            </div>
+
+            <div class="photo">
+                <img src="images/2.jpg" alt="">
+            </div>
+
+            <div class="photo">
+                <img src="images/3.jpg" alt="">
+            </div>
+
+            <div class="photo">
+                <img src="images/4.jpg" alt="">
+            </div>
+
+            <div class="photo">
+                <img src="images/5.jpg" alt="">
+            </div>
+
+            <div class="photo">
+                <img src="images/6.jpg" alt="">
+            </div>
+
+            <div class="photo">
+                <img src="images/7.jpg" alt="">
+            </div>
+
+            <div class="photo">
+                <img src="images/8.jpg" alt="">
+            </div>
+
+            <div class="photo">
+                <img src="images/9.jpg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <!-- =========================
+            FOOTER
+    =========================== -->
+
+    <footer>
+
+        <h2>
+            ❤️ Made With Love ❤️
+        </h2>
+
+        <p>
+
+            Happy Birthday Once Again 🎂
+
+        </p>
+
+    </footer>
+
+
+
+
+
+
+
+    <!-- =========================
+            AUDIO
+    =========================== -->
+
+    <audio
+        id="birthdayMusic"
+        loop>
+
+        <source
+            src="music/birthday.mp3"
+            type="audio/mpeg">
+
+    </audio>
+
+
+
+
+
+
+
+    <!-- =========================
+            JAVASCRIPT
+    =========================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
